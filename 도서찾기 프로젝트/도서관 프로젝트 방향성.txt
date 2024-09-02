@@ -1,0 +1,21 @@
+내가 원하는 책을 가진 도서관 (애플리케이션으로 방향을 잡고 쉽지 않다면 웹으로 제작)
+- 애플리케이션을 어떤 프로그램으로 제작할지 결정
+reactnative(추천) = flutter
+
+1) 자신의 주변에 위치한 도서관 파악하기
+- 자신의 위치정보(어떤 코드로 나타낼 것인지...)
+- 도서관 위치 정보
+   (1) 직선 거리
+   (2) 보행 거리
+
+
+2) 그 도서관에서 본인이 원하는 책이 있는지 여부 확인
+- 도서관 책 목록
+- 원하는 책의 유무 확인
+
+
+#도서목록 인증키
+
+인코딩 : bNwH7fMESNzwAdqKn4rn3mvLVwSHVwt%2Bmze%2Fu1HudJZlAtB0KitYcJHsQn15UdGWTFrSW%2BMmpNd7VxdUTWfLCw%3D%3D
+
+디코딩 : bNwH7fMESNzwAdqKn4rn3mvLVwSHVwt+mze/u1HudJZlAtB0KitYcJHsQn15UdGWTFrSW+MmpNd7VxdUTWfLCw==

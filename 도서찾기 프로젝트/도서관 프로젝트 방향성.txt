@@ -19,3 +19,13 @@ reactnative(추천) = flutter
 인코딩 : bNwH7fMESNzwAdqKn4rn3mvLVwSHVwt%2Bmze%2Fu1HudJZlAtB0KitYcJHsQn15UdGWTFrSW%2BMmpNd7VxdUTWfLCw%3D%3D
 
 디코딩 : bNwH7fMESNzwAdqKn4rn3mvLVwSHVwt+mze/u1HudJZlAtB0KitYcJHsQn15UdGWTFrSW+MmpNd7VxdUTWfLCw==
+
+240924)
+
+1번째 주제인 자신의 주변에 위치한 도서관 파악 코드는 완성
+2번째 주제를 완성하려면 전국 도서관 도서 현황을 알 수 있는 api 혹은 csv파일 필요해보임
+문제는 내가 원하는 데이터가 완벽하게 다 찾기가 많이 어려움
+그러므로 두가지의 방향성으로 유추를 해봄
+2-1. 전국의 도서관에 있는 모든 책을 알기는 힘들지만 찾을 수 있는 데이터들만 찾아서 하나하나 다 입력
+2-2. 주제를 변경하여 내 주변에 있는 도서관이 문을 열었는지, 쉬는 날이 언제인지 알려주는 걸로 방향성을
+바꾸기

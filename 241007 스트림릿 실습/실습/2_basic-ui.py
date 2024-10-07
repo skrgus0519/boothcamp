@@ -24,7 +24,7 @@ st.download_button(
     label='다운로드 버튼',
     data = dataframe.to_csv(),
     file_name='sample.csv',
-    mime= 'text/csv'  # 그림이면 image/png
+    mime= 'text/csv'  # default: text/plain -> 그림이면 image/png 같은거 작성
 )
 
 

@@ -20,8 +20,9 @@ with st.sidebar:
 ### 날짜, 종목코드 입력되면 차트 생성 - 탭 2개로 생성(탭1 : 차트, 탭2: 데이터(Dataframe))
 if date and code:
     df = fdr.DataReader(code, date)
-    df.sort_index(ascending=True).loc[:, 'close'] # OHLCV
-    st.line_chart(data)
+    data = df.sort_index(ascending=True).loc[:, 'close'] # OHLCV
+    
+    tab1, tab2 = st.tabs(['차트', '데이터'])
 
     with tab1:
         st.line_chart(data)
@@ -32,8 +33,9 @@ if date and code:
     with st.expander('컬럼 설명'):
         st.markdown('''
                     - Open: 시가
-                    - Low: 저가
                     - High: 고가
-                    - Adj Close:
+                    - Low: 저가
+                    - Close: 종가
+                    - Adj Close: 수정 종가
                     - Volune: 거래량
                     ''')

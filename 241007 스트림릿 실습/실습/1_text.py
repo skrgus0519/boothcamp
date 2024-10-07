@@ -32,6 +32,7 @@ st.markdown('**Hello**!')
 st.markdown(':blue[파랑], :red[빨강], :orange[주황], :green[초록], **:violet[바이올렛]**')
 
 # latex 수식
-st.markdown('$\sqrt(x^2+y^2=10^2)$')
+st.markdown('$\sqrt{x^2+y^2}=1$')
 
 # LaTex 수식 지원
+st.latex(r'\sqrt{x^2+y^2}=1')
